@@ -1,0 +1,254 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8252a771-9b73-4ce3-ab5e-8fe71f731e78": {
+        "id": "8252a771-9b73-4ce3-ab5e-8fe71f731e78",
+        "parent": null,
+        "name": "kawsnode.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kawsnode.js",
+        "cursor": {
+          "lineNumber": 10,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "kawsnode"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigTestAPIDDBresourceany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1626095956442
+      },
+      "2beba62e-9b1b-429e-bbc8-739fbb48b535": {
+        "id": "2beba62e-9b1b-429e-bbc8-739fbb48b535",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "67801042-a114-4689-83b7-03571294834d": {
+        "id": "67801042-a114-4689-83b7-03571294834d",
+        "parent": null,
+        "name": "sub",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cdcf8b72-a5a1-47af-8227-5b09555625c6",
+          "a8691803-fe78-4be3-b25b-27e4f2c706d3"
+        ],
+        "isRemovable": true,
+        "filePath": "sub"
+      },
+      "cdcf8b72-a5a1-47af-8227-5b09555625c6": {
+        "id": "cdcf8b72-a5a1-47af-8227-5b09555625c6",
+        "parent": "67801042-a114-4689-83b7-03571294834d",
+        "name": "justjs.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sub/justjs.js",
+        "lastUpdated": 1626095919674
+      },
+      "a8691803-fe78-4be3-b25b-27e4f2c706d3": {
+        "id": "a8691803-fe78-4be3-b25b-27e4f2c706d3",
+        "parent": "67801042-a114-4689-83b7-03571294834d",
+        "name": "subnode.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sub/subnode.js",
+        "cursor": {
+          "lineNumber": 14,
+          "column": 26
+        },
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "subnode"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigsachithraAPInameget",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1626095960425
+      }
+    },
+    "openFiles": [
+      "8252a771-9b73-4ce3-ab5e-8fe71f731e78",
+      "cdcf8b72-a5a1-47af-8227-5b09555625c6",
+      "a8691803-fe78-4be3-b25b-27e4f2c706d3"
+    ],
+    "currentFileId": "a8691803-fe78-4be3-b25b-27e4f2c706d3",
+    "resources": {
+      "apigTestAPIDDBresourceany": {
+        "name": "apigTestAPIDDBresourceany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/DDBresource": "0aenia",
+            "/DDBresource/check": "70q21i",
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/newchange/test": "k6pdhn",
+            "/newchange": "q1ox7l",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/DDBresource",
+          "resourceName": "DDBresource",
+          "resourceId": "0aenia",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test12",
+          "stageDeploymentId": "4kjhl4",
+          "mode": 1
+        }
+      },
+      "ddbKChineseAnimal": {
+        "name": "ddbKChineseAnimal",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/KChineseAnimal",
+            "name": "KChineseAnimal",
+            "partitionKey": "BirthYear",
+            "partitionKeyType": "N",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "",
+            "payPerRequest": true,
+            "mode": 1,
+            "secondaryIndexes": {}
+          }
+        }
+      },
+      "apigsachithraAPInameget": {
+        "name": "apigsachithraAPInameget",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test112",
+          "stageDeploymentId": "p6yuc0",
+          "mode": 1
+        }
+      },
+      "s3cloud9Ktest": {
+        "name": "s3cloud9Ktest",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "cloud9-ktest"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "k1",
+        "varValue": "v1",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        },
+        "mysql": {
+          "name": "mysql",
+          "version": "2.18.1",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.0",
+    "projectName": "kawsnode",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1626095993201
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kawsnode",
+      "url": "https://github.com/Kumudikatest/kawsnode"
+    }
+  }
+}
